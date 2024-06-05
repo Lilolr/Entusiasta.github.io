@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entusiastas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #0066cc;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #004080;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        nav ul li a:hover {
+            background-color: #003366;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Entusiastas</h1>
+        <p>Tu comunidad de apasionados en diversas áreas</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#topics">Temas</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Inicio</h2>
+        <p>Bienvenido a Entusiastas, donde celebramos la pasión y el conocimiento en una variedad de campos. Únete a nosotros para compartir, aprender y crecer juntos.</p>
+    </section>
+    <section id="about">
+        <h2>Acerca de</h2>
+        <p>Entusiastas es una comunidad dedicada a reunir a personas apasionadas por diversos temas. Desde tecnología y ciencia hasta arte y cultura, nuestro objetivo es fomentar el intercambio de ideas y la colaboración.</p>
+    </section>
+    <section id="topics">
+        <h2>Temas</h2>
+        <ul>
+            <li>Tecnología</li>
+            <li>Ciencia</li>
+            <li>Arte</li>
+            <li>Cultura</li>
+            <li>Deportes</li>
+            <li>Música</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o quieres unirte a nuestra comunidad? Contáctanos a través de nuestro correo electrónico: <a href="mailto:info@entusiastas.com">info@entusiastas.com</a>.</p>
+    </section>
+    <footer>
+        <p>Entusiastas &copy; 2024</p>
+    </footer>
+</body>
+</html>
